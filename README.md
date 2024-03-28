@@ -21,11 +21,8 @@ Organizar y facilitar el acceso a la información relevante para tu trabajo diar
 - Integración con herramientas de gestión de tareas y calendario.
 
 ## Tecnologías y herramientas utilizadas.
-- HTML5
-- SASS
-- Javascript
-- Visual Studio Code
-[My Skills](https://skillicons.dev/icons?i=html,sass,js,vscode)
+
+(https://skillicons.dev/icons?i=html,sass,js,vscode)
 
 ## Dificulta del Proyecto
 - ~~Fácil~~
