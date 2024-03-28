@@ -23,7 +23,7 @@
         gap: 2rem;
     }
 
-    h3 {
+    strong {
         font-size: 1.8rem;
         color: v.$sede;
     }
@@ -62,6 +62,11 @@
                 width: 30rem;
             }            
         }
+    }
+
+    .barra__icono-nav {
+        width: 3.5rem;
+        height: auto;
     }
 
     
