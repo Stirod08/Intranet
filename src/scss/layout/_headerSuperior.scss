@@ -1,0 +1,68 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include m.celular {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.header__aviso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin-left: 2rem;
+
+    @include m.celular {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        color: v.$sede;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: v.$negro;
+    }
+}
+
+//Barra superior, icono de buscar, ingresar, darkmode
+.barra {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: flex-end;
+
+    img {
+        width: 3.5rem;
+    }
+
+    .buscar {
+        display: flex;
+
+        .input_buscar{
+            border-radius: 1rem;
+            border: solid .1rem v.$grisClaro;
+            width: 17rem;
+            margin-right: 1rem;
+            display: none;
+            @include m.desktop {
+                display: block;
+            }
+
+            @include m.celular {
+                width: 30rem;
+            }            
+        }
+    }
+
+    
+}

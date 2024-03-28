@@ -1,0 +1,15 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+
+
+
+.contenido-principal {
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+    margin-left: 7rem;
+    transition: margin-left 300ms cubic-bezier(0.085, 0.135, 0.15, 0.86);
+    
+    @include m.tablet {
+        margin-left: 25rem;
+    }
+}
